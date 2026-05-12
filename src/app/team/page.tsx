@@ -43,7 +43,7 @@ const leadership = [
     tags: ["Leadership", "Counseling", "Partnerships"],
   },
   {
-    name: "Dr. Nabin",
+    name: "Dr. Nabin Yadav",
     role: "Experienced Faculty",
     text: "Adds an academic lens to MBBS planning, helping students understand the discipline and study structure of medical education abroad.",
     tags: ["Faculty", "Academics", "Mentorship"],

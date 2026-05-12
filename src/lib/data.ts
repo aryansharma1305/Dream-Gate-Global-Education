@@ -238,7 +238,7 @@ export const teamMembers = [
   },
   {
     id: "dr-nabin",
-    name: "Dr. Nabin",
+    name: "Dr. Nabin Yadav",
     title: "Experienced Faculty & Academic Mentor",
     image: "/team/dr-nabin.jpeg",
     bio: "Provides academic guidance, student mentoring, and faculty-backed MBBS pathway support.",
