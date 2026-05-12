@@ -189,12 +189,12 @@ function IntroVideo() {
     <section className="bg-navy py-20 text-white">
       <div className="container-site grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
-          <p className="font-bold uppercase tracking-[0.24em] text-gold">Dream Gate Video</p>
+          <p className="font-bold uppercase tracking-[0.24em] text-gold">The Dream Gate Approach</p>
           <h2 className="mt-4 font-heading text-4xl font-black leading-tight md:text-5xl">
-            A 10-second intro ready for website and Instagram promotion.
+            A clear path to top medical universities abroad.
           </h2>
           <p className="mt-5 max-w-xl text-lg leading-8 text-white/72">
-            Built with HyperFrames using the same navy and gold identity, focused on MBBS abroad guidance for Indian students and parents.
+            See how we transform the complex MBBS admission process into a simple, transparent journey. Watch our quick introduction and follow us for the latest updates on admissions and student life.
           </p>
           <ButtonLink
             href="https://www.instagram.com/dreamgatembbs?igsh=dHNtYXY5OTAxNGhy"
