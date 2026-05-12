@@ -37,10 +37,10 @@ const trustPillars = [
 
 const leadership = [
   {
-    name: "Shivam",
-    role: "Counseling & Strategy",
-    text: "Leads student-first counseling standards, family communication, and transparent country-university fitment.",
-    tags: ["Vision", "Counseling", "Partnerships"],
+    name: "Dr. Shivam",
+    role: "Managing Director",
+    text: "Leads Dream Gate's counseling vision, university coordination, family communication, and transparent country-university fitment.",
+    tags: ["Leadership", "Counseling", "Partnerships"],
   },
   {
     name: "Dr. Nabin",
@@ -49,7 +49,7 @@ const leadership = [
     tags: ["Faculty", "Academics", "Mentorship"],
   },
   {
-    name: "Namod Kumar",
+    name: "Dr. Amod Kumar",
     role: "Admissions Operations",
     text: "Coordinates applications, university communication, documentation follow-ups, and offer-letter readiness.",
     tags: ["Admissions", "Documentation", "Operations"],

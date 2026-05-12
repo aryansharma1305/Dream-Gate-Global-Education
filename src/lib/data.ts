@@ -228,13 +228,13 @@ export const countries = [
 export const teamMembers = [
   {
     id: "shivam",
-    name: "Shivam",
-    title: "Senior Counselor",
+    name: "Dr. Shivam",
+    title: "Managing Director",
     image: "/team/shivam.jpeg",
-    bio: "Guides NEET-qualified students through country fitment, university comparison, and parent counseling.",
-    tags: ["Counseling", "Parent Guidance", "Shortlisting"],
+    bio: "Leads Dream Gate's counseling vision, university coordination, and parent-first MBBS guidance.",
+    tags: ["Leadership", "Counseling", "Strategy"],
     longBio:
-      "Shivam supports first-time MBBS abroad families with transparent counseling, helping students and parents compare countries, university fit, budgets, and documentation timelines before applying.",
+      "Dr. Shivam leads Dream Gate Global Education as Managing Director, guiding the team across student counseling, university coordination, parent communication, and transparent MBBS abroad planning.",
   },
   {
     id: "dr-nabin",
@@ -247,24 +247,24 @@ export const teamMembers = [
       "Dr. Nabin brings faculty experience to the counseling process, helping students understand academic expectations, MBBS study structure, clinical learning, and the discipline required for medical education abroad.",
   },
   {
-    id: "namod-kumar",
-    name: "Namod Kumar",
+    id: "amod-kumar",
+    name: "Dr. Amod Kumar",
     title: "Admissions & University Relations",
-    image: "/team/namod-kumar.jpeg",
+    image: "/team/amod-kumar.jpeg",
     bio: "Coordinates admissions, university communication, and application follow-ups.",
     tags: ["Admissions", "Documentation", "University Relations"],
     longBio:
-      "Namod Kumar works across admissions and university relations, keeping intake details, application status, fee information, and student documentation aligned with partner university requirements.",
+      "Dr. Amod Kumar works across admissions and university relations, keeping intake details, application status, fee information, and student documentation aligned with partner university requirements.",
   },
   {
     id: "jashan",
-    name: "Jashan",
+    name: "Dr. Jashan",
     title: "Student Support Lead",
     image: "/team/jashan.jpeg",
     bio: "Supports pre-departure briefing, arrival coordination, and early semester guidance.",
     tags: ["Onboarding", "Student Support", "Travel Readiness"],
     longBio:
-      "Jashan manages student support after admission, including pre-departure preparation, onboarding coordination, parent communication, and practical guidance during the transition abroad.",
+      "Dr. Jashan manages student support after admission, including pre-departure preparation, onboarding coordination, parent communication, and practical guidance during the transition abroad.",
   },
 ];
 
