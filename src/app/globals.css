@@ -3,21 +3,90 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 0 0% 100%;
+  --foreground: 240 28% 14%;
+  --border: 220 16% 90%;
+  --input: 220 16% 90%;
+  --ring: 39 91% 55%;
+  --primary: 222 74% 17%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 17% 98%;
+  --secondary-foreground: 240 28% 14%;
+  --muted: 220 14% 96%;
+  --muted-foreground: 226 14% 40%;
+  --accent: 39 91% 55%;
+  --accent-foreground: 222 74% 17%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: auto;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #1A1A2E;
+  background: #F8F9FA;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #F5A623;
+  color: #0B1F4A;
+}
+
+.container-site {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.gold-focus {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2;
+}
+
+.marquee-track {
+  animation: marquee 26s linear infinite;
+}
+
+.marquee-wrap:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.text-reveal-word {
+  display: inline-block;
+  transform: translateY(110%);
+  opacity: 0;
+}
+
+.timeline-node::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 9999px;
+  border: 1px solid rgba(245, 166, 35, 0.45);
+  animation: ripple 2s infinite;
+}
+
+.form-input {
+  @apply min-h-11 rounded-lg border border-navy/15 bg-white px-3 py-2 text-sm text-charcoal outline-none transition placeholder:text-charcoal/35 focus:border-gold focus:ring-2 focus:ring-gold/25;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.75);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
 }
 
 @layer utilities {
